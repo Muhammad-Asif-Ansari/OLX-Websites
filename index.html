@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/OLX_New_Logo.png" alt="OLX Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+                <form class="d-flex me-3">
+                    <input class="form-control me-2 search-bar" type="search" placeholder="Search for products" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+                <a href="#" class="btn btn-outline-primary me-2">Login</a>
+                <a href="#" class="btn btn-post">Post Ad</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="items">
+        <li class="bold">ALL CATEGORIES</li>
+        <li>Mobile Phones</li>
+        <li>Cars</li>
+        <li>Motorcycles</li>
+        <li>Houses</li>
+        <li>Video-Audios</li>
+        <li>Tablets</li>
+        <li>Land & Plots</li>
+    </div>
+
+    <img src="Images/banner.jpg" alt="" class="img-fluid w-100">
+
+    <div class="categories-container text-center mt-4">
+        <h1>ALL CATEGORIES</h1>
+    </div>
+
+    <div class="img-first">
+        <img src="./Images/mobiles.png" alt="mobiles">
+        <img src="./Images/vehicles.png" alt="vehicles">
+        <img src="./Images/property for sales.png" alt="property for sales">
+        <img src="./Images/property for rent.png" alt="property for rent">
+        <img src="./Images/electronic and home appliances.png" alt="electronic and home appliances">
+        <img src="./Images/bikes.png" alt="bikes">
+        <img src="./Images/business industrial and agriculture.png" alt="business industrial and agriculture">
+    </div>
+
+    <div class="items-2">
+        <li>Mobiles</li>
+        <li>Vehicles</li>
+        <li>Property for <br> Sales</li>
+        <li>Property for <br> Rent</li>
+        <li>Electronic & <br> Home <br>Appliances</li>
+        <li>Bikes</li>
+        <li>Business,<br> Industrial & <br> Agriculture</li>
+    </div>
+
+    <div class="img-first">
+        <img src="./Images/services.png" alt="services">
+        <img src="./Images/jobs.png" alt="jobs">
+        <img src="./Images/animals.png" alt="animals">
+        <img src="./Images/furniture and home decor.png" alt="furniture and home decor">
+        <img src="./Images/fashion and beauty.png" alt="fashion and beauty">
+        <img src="./Images/books sports and hobbies.png" alt="books">
+        <img src="./Images/kids.png" alt="kids">
+    </div>
+
+    <div class="items-3">
+        <li>Services</li>
+        <li>Jobs</li>
+        <li>Animals</li>
+        <li>Furniture & <br> Home Decor</li>
+        <li>Fashion & <br> Beauty</li>
+        <li>Books, Sports <br>& Hobbies</li>
+        <li>Kids</li>
+    </div>
+
+    <h2>Mobile Phones</h2>
+<div class="container mt-4">
+    <div class="row gy-4">
+        <div class="col-md-3 col-sm-6">
+            <div class="card">
+                <img src="./Images/house 4.webp" alt="House" class="card-img-top" height="250">
+                <button class="card-body btn btn-primary">Click</button>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="card">
+                <img src="./Images/mobile-2.jpeg" alt="Mobile" class="card-img-top" height="250">
+                <button class="card-body btn btn-primary">Click</button>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="card">
+                <img src="./Images/motor 3.webp" alt="Motor" class="card-img-top" height="250">
+                <button class="card-body btn btn-primary" onclick="details()" id="cart-3">Click</button>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="card">
+                <img src="./Images/car 4.jpeg" alt="Car" class="card-img-top" height="250">
+                <button class="card-body btn btn-primary">Click</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
