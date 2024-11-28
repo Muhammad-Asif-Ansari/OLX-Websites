@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/OLX_New_Logo.png" alt="OLX Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -24,7 +26,8 @@
                     <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
                 </ul>
                 <form class="d-flex me-3">
-                    <input class="form-control me-2 search-bar" type="search" placeholder="Search for products" aria-label="Search">
+                    <input class="form-control me-2 search-bar" type="search" placeholder="Search for products"
+                        aria-label="Search">
                     <button class="btn btn-outline-secondary" type="submit">Search</button>
                 </form>
                 <a href="#" class="btn btn-outline-primary me-2">Login</a>
@@ -50,7 +53,7 @@
         <h1>ALL CATEGORIES</h1>
     </div>
 
-    <div class="img-first">
+    <!-- <div class="img-first">
         <img src="./Images/mobiles.png" alt="mobiles">
         <img src="./Images/vehicles.png" alt="vehicles">
         <img src="./Images/property for sales.png" alt="property for sales">
@@ -88,39 +91,82 @@
         <li>Fashion & <br> Beauty</li>
         <li>Books, Sports <br>& Hobbies</li>
         <li>Kids</li>
-    </div>
+    </div> -->
 
-    <h2>Mobile Phones</h2>
-<div class="container mt-4">
-    <div class="row gy-4">
-        <div class="col-md-3 col-sm-6">
-            <div class="card">
-                <img src="./Images/house 4.webp" alt="House" class="card-img-top" height="250">
-                <button class="card-body btn btn-primary">Click</button>
-            </div>
+    <div class="category-container">
+        <div class="category-item">
+            <img src="./Images/mobiles.png" alt="mobiles">
+            <li>Mobiles</li>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="card">
-                <img src="./Images/mobile-2.jpeg" alt="Mobile" class="card-img-top" height="250">
-                <button class="card-body btn btn-primary">Click</button>
-            </div>
+        <div class="category-item">
+            <img src="./Images/vehicles.png" alt="vehicles">
+            <li>Vehicles</li>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="card">
-                <img src="./Images/motor 3.webp" alt="Motor" class="card-img-top" height="250">
-                <button class="card-body btn btn-primary" onclick="details()" id="cart-3">Click</button>
-            </div>
+        <div class="category-item">
+            <img src="./Images/property for sales.png" alt="property for sales">
+            <li>Property for <br> Sales</li>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="card">
-                <img src="./Images/car 4.jpeg" alt="Car" class="card-img-top" height="250">
-                <button class="card-body btn btn-primary">Click</button>
-            </div>
+        <div class="category-item">
+            <img src="./Images/property for rent.png" alt="property for rent">
+            <li>Property for <br> Rent</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/electronic and home appliances.png" alt="electronic and home appliances">
+            <li>Electronic & <br> Home <br>Appliances</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/bikes.png" alt="bikes">
+            <li>Bikes</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/business industrial and agriculture.png" alt="business industrial and agriculture">
+            <li>Business,<br> Industrial & <br> Agriculture</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/services.png" alt="services">
+            <li>Services</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/jobs.png" alt="jobs">
+            <li>Jobs</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/animals.png" alt="animals">
+            <li>Animals</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/furniture and home decor.png" alt="furniture and home decor">
+            <li>Furniture & <br> Home Decor</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/fashion and beauty.png" alt="fashion and beauty">
+            <li>Fashion & <br> Beauty</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/books sports and hobbies.png" alt="books">
+            <li>Books, Sports <br>& Hobbies</li>
+        </div>
+        <div class="category-item">
+            <img src="./Images/kids.png" alt="kids">
+            <li>Kids</li>
         </div>
     </div>
-</div>
+    
+
+
+    <h2>All Items</h2>
+
+
+    <div class="container py-4">
+        <div class="row" id="main">
+           
+        </div>
+    </div>
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>

@@ -1,4 +1,5 @@
 
+
 /* Navbar Logo */
 .navbar-brand img {
     width: 100px;
@@ -34,8 +35,8 @@
     font-weight: bold;
 }
 
-/* Categories Images */
-.img-first {
+/* General Layout */
+.category-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -43,38 +44,47 @@
     margin-top: 20px;
 }
 
-.img-first > img {
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px; /* Adjust as needed */
+}
+
+.category-item img {
     height: 88px;
     width: 88px;
 }
 
-/* Items Text */
-.items-2,
-.items-3 {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-.items-2 > li,
-.items-3 > li {
+.category-item li {
     list-style-type: none;
-    text-align: center;
+    margin-top: 8px;
+    font-size: 14px; /* Adjust font size */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .img-first > img {
+    .category-container {
+        gap: 10px;
+    }
+
+    .category-item {
+        width: auto; /* Allow items to shrink to fit content */
+    }
+
+    .category-item img {
         height: 70px;
         width: 70px;
     }
 
-    .items-2 > li,
-    .items-3 > li {
-        margin: 10px 0;
+    .category-item li {
+        font-size: 12px;
     }
 }
 
 
+.card img {
+    height: 200px; 
+    object-fit: cover;
+}
